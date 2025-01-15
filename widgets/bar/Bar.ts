@@ -1,5 +1,4 @@
 import Clock from "./modules/Clock.ts";
-import FlatpakUpdatesCount from "./modules/FlatpakUpdatesCount";
 import Mpris from "./modules/Mpris.ts";
 import { NetworkIndicator } from "./modules/Network.ts";
 import NotifyIcon from "./modules/NotifyIcon";
@@ -18,7 +17,6 @@ const Left = () =>
       Workspaces(),
       CpuUsage(),
       MemoryUsage(),
-      FlatpakUpdatesCount(),
     ],
   });
 
